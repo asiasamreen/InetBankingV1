@@ -1,0 +1,16 @@
+com\inetbanking\testCases\BaseClass.class
+com\inetbanking\testCases\TC_LoginDDT_002.class
+com\inetbanking\pageObjects\EditCustomerPage.class
+com\inetbanking\utilities\ExtentManager.class
+com\inetbanking\utilities\Helper.class
+com\inetbanking\utilities\XUtils.class
+com\inetbanking\testCases\TC_EditCustomer_004.class
+com\inetbanking\utilities\Reporting.class
+com\inetbanking\testCases\handling_frames.class
+com\inetbanking\pageObjects\LoginPage.class
+com\inetbanking\testCases\TC_AddCustomer_003.class
+com\inetbanking\testCases\TC_Login_001.class
+com\inetbanking\testCases\test_windowhandler.class
+com\inetbanking\pageObjects\CutomerDetailsPage.class
+com\inetbanking\utilities\ReadConfig.class
+com\inetbanking\utilities\ExtentTestManager.class

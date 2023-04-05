@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T16:17:37 IST" name="Default suite" finished-at="2023-04-03T16:18:24 IST" duration-ms="47202">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T16:17:37 IST" name="Default test" finished-at="2023-04-03T16:18:24 IST" duration-ms="47202">
+      <class name="com.inetbanking.testCases.TC_EditCustomer_004">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@2ddc9a9f]" started-at="2023-04-03T16:17:37 IST" name="setupSuite" finished-at="2023-04-03T16:17:37 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@2ddc9a9f]" started-at="2023-04-03T16:17:37 IST" name="setup" finished-at="2023-04-03T16:17:47 IST" duration-ms="10080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EditCustomer()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@2ddc9a9f]" started-at="2023-04-03T16:17:47 IST" name="EditCustomer" finished-at="2023-04-03T16:18:24 IST" duration-ms="36765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCustomer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@2ddc9a9f]" started-at="2023-04-03T16:18:24 IST" name="teardown" finished-at="2023-04-03T16:18:24 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_EditCustomer_004 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

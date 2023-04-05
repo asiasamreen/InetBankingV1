@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="11" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-03T23:06:45 IST" name="Suite" finished-at="2023-04-03T23:09:39 IST" duration-ms="174523">
+    <groups>
+    </groups>
+    <test started-at="2023-04-03T23:06:45 IST" name="Inet Banking Test" finished-at="2023-04-03T23:09:39 IST" duration-ms="174523">
+      <class name="com.inetbanking.testCases.TC_LoginDDT_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:06 IST" name="setup" finished-at="2023-04-03T23:08:16 IST" duration-ms="10734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Invalidlogin(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:28 IST" name="Invalidlogin" description="Invalid login scenario,reading testdata from excel sheet" data-provider="login_data" finished-at="2023-04-03T23:08:32 IST" duration-ms="4224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr490319]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UtEgUpE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidlogin -->
+        <test-method signature="Invalidlogin(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:32 IST" name="Invalidlogin" description="Invalid login scenario,reading testdata from excel sheet" data-provider="login_data" finished-at="2023-04-03T23:08:34 IST" duration-ms="1857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UtEgUpE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidlogin -->
+        <test-method signature="Invalidlogin(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:34 IST" name="Invalidlogin" description="Invalid login scenario,reading testdata from excel sheet" data-provider="login_data" finished-at="2023-04-03T23:08:36 IST" duration-ms="1988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr490319]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ghgdhgsdh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidlogin -->
+        <test-method signature="Invalidlogin(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:36 IST" name="Invalidlogin" description="Invalid login scenario,reading testdata from excel sheet" data-provider="login_data" finished-at="2023-04-03T23:08:38 IST" duration-ms="2326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dssafddf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsafsfd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidlogin -->
+        <test-method signature="logintest2()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:38 IST" name="logintest2" finished-at="2023-04-03T23:08:41 IST" duration-ms="2574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@5be6e01c]" started-at="2023-04-03T23:08:41 IST" name="teardown" finished-at="2023-04-03T23:08:41 IST" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_LoginDDT_002 -->
+      <class name="com.inetbanking.testCases.TC_EditCustomer_004">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@6ef888f6]" started-at="2023-04-03T23:09:16 IST" name="setup" finished-at="2023-04-03T23:09:28 IST" duration-ms="11564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EditCustomer()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@6ef888f6]" started-at="2023-04-03T23:09:28 IST" name="EditCustomer" finished-at="2023-04-03T23:09:38 IST" duration-ms="10625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCustomer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_EditCustomer_004@6ef888f6]" started-at="2023-04-03T23:09:38 IST" name="teardown" finished-at="2023-04-03T23:09:39 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_EditCustomer_004 -->
+      <class name="com.inetbanking.testCases.TC_AddCustomer_003">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddCustomer_003@1c93084c]" started-at="2023-04-03T23:08:41 IST" name="setup" finished-at="2023-04-03T23:09:01 IST" duration-ms="19703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomer_003@1c93084c]" started-at="2023-04-03T23:09:01 IST" name="addCustomer" finished-at="2023-04-03T23:09:15 IST" duration-ms="13453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_AddCustomer_003@1c93084c]" started-at="2023-04-03T23:09:15 IST" name="teardown" finished-at="2023-04-03T23:09:16 IST" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_AddCustomer_003 -->
+      <class name="com.inetbanking.testCases.TC_Login_001">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.inetbanking.testCases.TC_Login_001@2ea227af]" started-at="2023-04-03T23:06:45 IST" name="setupSuite" finished-at="2023-04-03T23:06:45 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_Login_001@2ea227af]" started-at="2023-04-03T23:06:45 IST" name="setup" finished-at="2023-04-03T23:07:55 IST" duration-ms="69688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:com.inetbanking.testCases.TC_Login_001@2ea227af]" started-at="2023-04-03T23:07:55 IST" name="logintest" description=" valid login scenario " finished-at="2023-04-03T23:08:03 IST" duration-ms="8476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.inetbanking.testCases.TC_Login_001@2ea227af]" started-at="2023-04-03T23:08:03 IST" name="teardown" finished-at="2023-04-03T23:08:06 IST" duration-ms="2612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetbanking.testCases.TC_Login_001 -->
+    </test> <!-- Inet Banking Test -->
+  </suite> <!-- Suite -->
+</testng-results>
